@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(223, 217, 217);
+    
+}
+
+header {
+    background-color:rgb(5, 5, 24);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #0077cc;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Basic image styles */
+img.hover-image {
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover effect */
+img.hover-image:hover {
+    transform: scale(1.1); /* Enlarges the image */
+    filter: brightness(1.2); /* Brightens the image */
+}
+
+main {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label, table {
+    display: block;
+    margin: 10px 0;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.flash-messages {
+    list-style: none;
+    padding: 0;
+    color: red;
+}

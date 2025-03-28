@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="styles.css">
+<nav>
+    <ul>
+        <li><a href="base.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="dash.html">Dashboard</a></li>
+    </ul>
+</nav>
+<h2>Patient Details</h2>
+<form action="/submit-patient-details" method="POST">
+    <label for="hospital">Hospital Name:</label>
+    <input type="text" id="hospital" name="hospital" required>
+
+    <label for="doctor_number">Doctor’s Number:</label>
+    <input type="text" id="doctor_number" name="doctor_number" required>
+
+    <label for="condition">Condition:</label>
+    <textarea id="condition" name="condition" rows="4" required></textarea>
+
+    <button type="submit">Submit</button>
+</form>
